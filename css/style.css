@@ -1,0 +1,487 @@
+/*******************************************************************
+ Typography
+ ********************************************************************/
+ html {
+ 	position: relative;
+ 	min-height: 100%;
+ }
+ body {
+ 	margin: 0 0 125px 0; /* bottom = footer height */
+ }
+ @font-face {
+ 	font-family: Lytiga_pro;
+ 	src: url("../fonts/Lytiga_Pro_Regular.otf") format("opentype");
+ }
+ p, h1, h2, h3, li, span, a, table, label {
+ 	font-family: Lytiga_pro;
+ }
+ p {
+ 	font-size: 12px;
+ 	color: #565959;
+ 	line-height: 14px;
+ 	margin: 0 0 15px 0;
+ }
+ h1 {
+ 	font-size: 32px;
+ 	color: #565959;
+ 	margin: 0 0 10px 0;
+ }
+ h2 {
+ 	font-size: 16px;
+ 	color: #565959;
+ 	margin: 0 0 10px 0;
+ }
+ h3 {
+ 	font-size: 14px;
+ 	color: #565959;
+ 	margin: 0 0 10px 0;
+ }
+/*******************************************************************
+ End of Typography
+ ********************************************************************/
+/*******************************************************************
+ Template Standards
+ ********************************************************************/
+ table {
+ 	font-size: 12px;
+ 	color: #565959;
+ }
+ table tr {
+ 	height: 19px;
+ }
+ table tr td{
+ 	line-height: 19px;
+ 	padding: 0 0 0 15px;
+ }
+ .clear {
+ 	clear: both;
+ }
+/*******************************************************************
+ End of Template Standards
+ ********************************************************************/
+/*******************************************************************
+ Home overlay
+ ********************************************************************/
+ #overlay {
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+ 	z-index: 1;
+ 	background-color: rgba(0,0,0,0.7);
+ }
+ #project-info {
+ 	width: 400px;
+ 	padding: 15px;
+ 	background-color: #ffffff;
+ 	margin: 250px auto 0 auto;
+ }
+ #i_understand {
+ 	height: 30px;
+ 	display: block;
+ 	margin: 15px auto 0 auto; 
+ }
+/*******************************************************************
+ End Home overlay
+ ********************************************************************/
+/*******************************************************************
+ Menu
+ ********************************************************************/
+ .menu-wrapper {
+ 	height: 55px;
+ 	width: 100%;
+ 	background-color: #00315f;
+ }
+ .menu-wrapper nav {
+ 	width: 870px;
+ 	height: 55px;
+ 	margin: auto;
+ }
+ .menu-wrapper nav ul {
+ 	padding: 0px;
+ 	margin: 0px;
+ }
+ .menu-wrapper nav ul li {
+ 	padding: 0px;
+ 	margin: 0px;
+ 	list-style: none;
+ 	display: inline-block;
+ }
+ .menu-wrapper nav ul li a {
+ 	text-decoration: none;
+ 	display: block;
+ 	width: 214.5px;
+ 	height: 36.5px;
+ 	color: #ffffff;
+ 	text-align: center;
+ 	font-size: 18px;
+ 	padding: 18.5px 0 0 0;
+ }
+ .menu-wrapper nav ul li a:hover {
+ 	background-color: #1B517E;
+ }
+ /* Triangle indicator */
+ #home nav .home, #about_us nav .about_us, #report_bike nav .report_bike, #reserve nav .reserve, #reserve-step_2 nav .reserve, #reserve-step_3 nav .reserve {
+ 	margin: auto;
+ 	width: 0px;
+ 	height: 5px;
+ 	border-style: solid;
+ 	border-width: 0 12px 13px 12px;
+ 	border-color: transparent transparent #ffab1a transparent;
+ }
+/*******************************************************************
+ End of menu
+ ********************************************************************/
+/*******************************************************************
+ Header
+ ********************************************************************/
+ header {
+ 	height: 352px;
+ 	width: 100%;
+ 	background-color: #1b517e;
+ }
+ #header-wrapper, #slideshow {
+ 	width: 870px;
+ 	height: 352px;
+ 	margin: auto;
+ }
+ #slideshow {
+ 	background-image: url('../images/slideshow.png');
+ 	background-repeat: no-repeat;
+ }
+ .logo {
+ 	width: 215px;
+ 	height: 80px;
+ 	margin: 15px 15px 0 0;
+ 	background-image: url('../images/logo.png');
+ 	background-repeat: no-repeat;
+ 	float: right;
+ }
+/*******************************************************************
+ End of Header
+ ********************************************************************/
+/*******************************************************************
+ Content
+ ********************************************************************/
+ .content-left_row {
+ 	width: 598px;
+ 	float: left;
+ }
+ .content-right_row {
+ 	width: 225px;
+ 	float: right;
+ }
+ #content-wrapper {
+ 	margin: 15px auto 140px auto;
+ 	width: 840px;
+ 	min-height: 200px;
+ 	padding: 0 15px 0 15px;
+ 	border-style: solid;
+ 	border-color: #d3d3d3;
+ 	border-width: 0 1px 0 1px;
+ }
+ .content-box {
+ 	border-style: solid;
+ 	border-color: #adbdc2;
+ 	border-width: 1px;
+ 	-webkit-border-radius: 5px;
+ 	border-radius: 5px;
+ 	background-color: #f3f3f3;
+ 	margin: 0 0 15px 0;
+ }
+ .content-field {
+ 	margin: 15px 0 15px 0;
+ 	background-color: #d4dedf;
+ 	min-height: 40px;
+ 	padding: 15px;
+ }
+ .content-column_1, .content-column_2, .content-column_3, .content-column_4 {
+ 	min-height: 50px;
+ 	float: left;
+ }
+ .content-column_1 {
+ 	width: 140px;
+ 	padding: 0 15px 0 0;
+ }
+ .content-column_2 {
+ 	width: 240px;
+ 	padding: 0 15px 0 0;
+ }
+ .content-column_3 {
+ 	width: 155px;
+ }
+ .content-column_4 {
+ 	width: 395px;
+ }
+/*******************************************************************
+ End of Content
+ ********************************************************************/
+/*******************************************************************
+ Buttons
+ ********************************************************************/
+ .button-link {
+ 	display: table;
+ 	text-decoration: none;
+ 	line-height: 35px;
+ 	text-align: center;
+ }
+ .button-link, .button-input {
+ 	color: #484848;
+ 	height: 35px;
+ 	padding: 0 15px 0 15px;
+ 	font-size: 12px;
+ 	font-family: verdana;
+ 	-webkit-border-radius: 5px;
+ 	border-radius: 5px;
+ 	background-color: #55c2e1;
+ 	border-style: solid;
+ 	border-width: 1px;
+ 	border-color: #ADBDC2;
+ }
+ .button-link:hover, .button-input:hover {
+ 	background-color: #59c9e9;
+ }
+/*******************************************************************
+ End of Buttons
+ ********************************************************************/
+/*******************************************************************
+ News Box
+ ********************************************************************/
+ #news-image img {
+ 	-moz-box-shadow: 4px 4px 5px #353838;
+ 	-webkit-box-shadow: 4px 4px 5px #353838;
+ 	box-shadow: 4px 4px 5px #353838;
+ }
+ #news-toppics table {
+ 	border-style: solid;
+ 	border-color: #9d9d9d;
+ 	border-width: 0 0 0 1px;
+ }
+ #news-toppics table td:hover {
+ 	text-decoration: underline;
+ }
+ #news-short_text p {
+ 	text-align: justify;
+ 	margin: 0 0 5px 0;
+ }
+ #news-read_more_button {
+ 	float: left;
+ }
+/*******************************************************************
+ End of News Box
+ ********************************************************************/
+/*******************************************************************
+ Login Styling
+ ********************************************************************/
+
+ #login-wrapper {
+ 	border-color: #ADBDC2;
+ 	border-style: solid;
+ 	border-width: 1px;
+ 	background-color: #F3F3F3;
+ 	-webkit-border-radius: 5px;
+ 	border-radius: 5px;
+ }
+ .login-header {
+ 	padding: 30px 30px 15px 30px;
+ }
+ .login-content {
+ 	padding: 15px 30px 15px 30px;
+ }
+ .login-footer {
+ 	padding: 15px 30px 10px 30px;
+ 	background-color: #d4dedf;
+ 	border-style: solid;
+ 	border-width: 1px 0 0 0;
+ 	border-color: #ADBDC2;
+ }
+ #login-submit {
+ 	float: right;
+ }
+ #login-register, #login-forgot_your_account {
+ 	background: none;
+ 	border: none;
+ }
+ #login-register:hover, #login-forgot_your_account:hover {
+ 	text-decoration: underline;
+ }
+ #login-username, #login-password {
+ 	-webkit-border-radius: 3px;
+ 	border-radius: 3px;
+ 	height: 35px;
+ 	padding: 0 0 0 15px;
+ 	border-width: 1px;
+ 	width: 148px;
+ }
+ #login-password {
+ 	margin: 15px 0 0 0;
+ }
+/*******************************************************************
+ End of Login Styling
+ ********************************************************************/
+/*******************************************************************
+ Footer
+ ********************************************************************/
+ footer {
+ 	background-color: #00315f;
+ 	position: absolute;
+ 	left: 0;
+ 	bottom: 0;
+ 	height: 125px;
+ 	width: 100%;
+ 	clear: both;
+ }
+ #footer-wrapper {
+ 	width: 840px;
+ 	max-height: 125px;
+ 	margin: auto;
+ 	padding: 0 15px 0 15px;
+ }
+ #footer-wrapper nav {
+ 	float: right;
+ 	margin: 15px 0 0 0;
+ }
+ #footer-wrapper table td{
+ 	width: 90px;
+ }
+ #footer-wrapper table a {
+ 	text-decoration: none;
+ 	color: #ffffff;
+ }
+ #footer-wrapper table a:hover {
+ 	text-decoration: underline;
+ }
+ #footer-wrapper #language {
+ 	float: left;
+ 	margin: 30px 0 0 0;
+ }
+ #footer-wrapper #language h2 {
+ 	color: #ffffff;
+ }
+/*******************************************************************
+ End of Footer
+ ********************************************************************/
+/*******************************************************************
+ Reserve step one
+ ********************************************************************/
+ #adress-form {
+ 	width: 610px;
+ 	margin: 100px 0 0 15px;
+ 	float: left;
+ }
+ #adress-txtfield {
+ 	height: 38px;
+ 	width: 474px;
+ 	padding: 0 7px 0 15px;
+ 	margin: 0 15px 0 0;
+ 	-moz-box-shadow: 5px 5px 5px #133959;
+ 	-webkit-box-shadow: 5px 5px 5px #133959;
+ 	box-shadow: 5px 5px 5px #133959;
+ 	border-style: solid;
+ 	border-width: 1px;
+ 	border-color: #a4b4ba;
+ }
+ #adress-next {
+ 	height: 40px;
+ 	width: 100px;
+ }
+ #adress-message {
+ 	color: #ffffff;
+ 	width: 489px;
+ 	margin: 0 0 30px 0;
+ }
+ #reserve_step-wrapper {
+ 	margin: 0 0 0 8px;
+ 	width: 117px;
+ 	height: 17px;
+ 	float: left;
+ 	position: absolute;
+ 	top: 374px;
+ }
+ .reserve_step-active {
+ 	background-image: url('../images/step-active.png');
+ 	height: 17px;
+ 	width: 32px;
+ 	float: left;
+ 	margin: 0 0 0 7px;
+ }
+ .reserve_step-passive {
+ 	background-image: url('../images/step-passive.png');
+ 	height: 17px;
+ 	width: 32px;
+ 	float: left;
+ 	margin: 0 0 0 7px;
+ }
+/*******************************************************************
+ End Reserve Step one
+ ********************************************************************/
+/*******************************************************************
+ Reserve Step two
+ ********************************************************************/
+ #reserve-sort {
+ 	float: left;
+ 	margin: 100px 0 0 0;
+ }
+ #reserve-sort label {
+ 	color: #ffffff;
+ 	font-size: 12px;
+ }
+ #reserve-sort table td {
+ 	padding: 7px 0 0 0;
+ }
+
+ .status-green, .status-red {
+ 	height: 32px;
+ 	width: 32px;
+ 	background-repeat: no-repeat;
+ 	margin: 0 auto 0 auto;
+ 	padding: 0 0 0 0;
+ }
+ 
+ .status-green {
+ 	background-image: url('../images/green_light.png');
+ }
+ .status-red {
+ 	background-image: url('../images/red_light.png');
+ }
+ 
+ 
+ #reserve-table {
+ 	border-style: solid;
+ 	border-color: #b0c4cb;
+ 	border-width: 1px;
+ 	-webkit-border-radius: 5px;
+ 	border-radius: 5px;
+ 	background-color: #f3f3f3;
+ }
+ #reserve-table table {
+ 	width: 100%;
+ }
+ #reserve-table th {
+ 	text-decoration: underline;
+ 	line-height: 32px;
+ }
+ #reserve-table tr {
+ 	padding: 0 0 0 0;
+ }
+ #reserve-table tr:nth-of-type(even) {
+ 	background-color: #d4dedf;
+ }
+ #reserve-table td {
+ 	text-align: center;
+ 	line-height: 32px;
+ }
+ #reserve-table td:last-child {
+ 	padding: 0 0 0 0;
+ }
+/*******************************************************************
+ End Reserve Step two
+ ********************************************************************/
+/*******************************************************************
+ Reserve Step three
+ ********************************************************************/
+
+/*******************************************************************
+ End Reserve Step three
+********************************************************************/
